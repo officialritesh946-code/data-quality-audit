@@ -1,0 +1,2 @@
+Issue ID,Rule ID,Issue Type,Field,Description,Affected Records,Severity,Impact,Root Cause,Resolution,Status
+ISS-001,DQ-06,Format / Standardization,Postal Code,449 records contain 4-digit ZIP values because leading zeros are not preserved when stored as integers.,449,Medium,"May cause incorrect joins, grouping, exports, or validation failures where a 5-character ZIP is expected.",Postal Code stored as an integer instead of text.,Convert Postal Code to a 5-character text field and left-pad valid 4-digit values with zero.,Resolved

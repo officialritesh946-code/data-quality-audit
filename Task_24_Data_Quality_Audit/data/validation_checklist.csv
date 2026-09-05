@@ -1,0 +1,14 @@
+Rule ID,Category,Field,Validation Rule,Failed Records,Status,Priority,Recommended Action
+DQ-01,Completeness,All columns,No missing/null values,0,PASS,—,No action required.
+DQ-02,Uniqueness,All columns,No fully duplicated rows,0,PASS,—,No action required.
+DQ-03,Range,Sales,Sales must be >= 0,0,PASS,—,No action required.
+DQ-04,Range,Quantity,Quantity must be a positive integer,0,PASS,—,No action required.
+DQ-05,Range,Discount,Discount must be between 0 and 1,0,PASS,—,No action required.
+DQ-06,Format,Postal Code,ZIP code should be represented as a 5-character text value,449,FAIL,Medium,Convert to text and left-pad 4-digit ZIP values with zero.
+DQ-07,Consistency,Ship Mode,Value must belong to approved Ship Mode list,0,PASS,—,No action required.
+DQ-08,Consistency,Segment,Value must belong to approved Segment list,0,PASS,—,No action required.
+DQ-09,Consistency,Country,Value must belong to approved Country list,0,PASS,—,No action required.
+DQ-10,Consistency,Region,Value must belong to approved Region list,0,PASS,—,No action required.
+DQ-11,Consistency,Category,Value must belong to approved Category list,0,PASS,—,No action required.
+DQ-12,Consistency,Category / Sub-Category,Sub-Category must belong to its parent Category,0,PASS,—,No action required.
+DQ-13,Consistency,State / Region,State must map to the expected Superstore Region,0,PASS,—,No action required.

@@ -1,0 +1,14 @@
+Column,Data Type,Rows,Non-Null,Missing,Unique
+Ship Mode,object,9977,9977,0,4
+Segment,object,9977,9977,0,3
+Country,object,9977,9977,0,1
+City,object,9977,9977,0,531
+State,object,9977,9977,0,49
+Postal Code,int64,9977,9977,0,631
+Region,object,9977,9977,0,4
+Category,object,9977,9977,0,3
+Sub-Category,object,9977,9977,0,17
+Sales,float64,9977,9977,0,5825
+Quantity,int64,9977,9977,0,14
+Discount,float64,9977,9977,0,12
+Profit,float64,9977,9977,0,7287
